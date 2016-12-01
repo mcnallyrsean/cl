@@ -357,12 +357,12 @@ body {
 }
 #intro button{
   margin-top: -2.5%;
-  margin-left: -11%;
+  margin-left: -14%;
   position: absolute;
   z-index: 4;
 }
 #intro #intro-images{
-  margin-left: -10%;
+  margin-left: -5%;
 }
 
 #intro img{
@@ -618,6 +618,9 @@ footer #certs img{
     text-align: center;
     margin: 0;
   }
+  #hero2content button {
+    width: 350px;
+  }
   #industries{
     margin: 0;
   }
@@ -666,11 +669,17 @@ footer #certs img{
   #submenu{
     height: 120vh;
   }
+  #hero2content button {
+    width: 300px;
+  }
   #hero1content p:nth-child(2),
   #hero2content p:nth-child(2),
   h2,
   #intro h2, #product-traits-lead h2{
     font-size: 2.5em;
+  }
+  #intro button{
+    margin-left: -8%;
   }
   #industries{
     margin: 0;
