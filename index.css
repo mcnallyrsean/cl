@@ -582,7 +582,7 @@ footer #certs img{
   #hero2content{
     background: #222226 no-repeat center center;
     padding: 0 0 39% 0;
-    text-align: left;
+    text-align: center;
     margin-right: 0;
     margin-left: 0;
     -webkit-background-size: cover;
@@ -598,8 +598,7 @@ footer #certs img{
     padding: 0 0 60% 0;
   }
   #hero2content button{
-    float: left;
-    clear: left;
+    float: none;
   }
   #hero1content p:nth-child(2),
   #hero2content p:nth-child(2),
@@ -616,7 +615,7 @@ footer #certs img{
     display: block;
   }
   #hero2content div:last-child{
-    text-align: left;
+    text-align: center;
     margin: 0;
   }
   #industries{
@@ -634,7 +633,7 @@ footer #certs img{
     margin-left: -30%;
   }
   #submenu{
-    height: 100vh;
+    height: 120vh;
     margin-top: 0;
     background: rgb(71, 147, 186);
   }
