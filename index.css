@@ -664,7 +664,7 @@ footer #certs img{
     margin: 2.5%;
   }
   #submenu{
-    height: 100vh;
+    height: 120vh;
   }
   #hero1content p:nth-child(2),
   #hero2content p:nth-child(2),
@@ -722,7 +722,7 @@ footer #certs img{
     margin-left: -16%;
   }
   #try-demo button {
-    margin: 7% 0 0 21%;
+    margin: 7% 0 0 22.5%;
   }
   #try-demo h2 {
     font-weight: 300;
