@@ -362,7 +362,7 @@ body {
   z-index: 4;
 }
 #intro #intro-images{
-  margin-left: -10%%
+  margin-left: -10%;
 }
 
 #intro img{
@@ -717,6 +717,19 @@ footer #certs img{
 @media(max-width: 491px){
   #hero2content{
     padding: 0 0 100% 0;
+  }
+  #intro button{
+    margin-left: -16%;
+  }
+  #try-demo button {
+    margin: 7% 0 0 21%;
+  }
+  #try-demo h2 {
+    font-weight: 300;
+    padding: 0 0 0 4%;
+}
+  #news .row button{
+    margin-top: -12%;
   }
 }
 @media(max-width: 319px){
