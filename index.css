@@ -88,7 +88,7 @@ body {
   position: absolute;
   height: 9px;
   width: 100%;
-  background: #d3531a;
+  background: #93d400;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -636,6 +636,7 @@ footer #certs img{
   #submenu{
     height: 100vh;
     margin-top: 0;
+    background: rgb(71, 147, 186);
   }
 }
 @media(max-width: 768px){
@@ -652,6 +653,10 @@ footer #certs img{
   }
   .mobile-menu{
     text-align: center;
+  }
+  .mobile-menu ul li{
+    font-size: 1.4em;
+    border-bottom: 1px solid lightgrey;
   }
   #nav-icon3{
     display: block;

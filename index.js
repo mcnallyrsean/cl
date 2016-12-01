@@ -35,12 +35,19 @@ var AuthentifyManager = (function(){
     });
   }
 
+  function escapeMobileSubmenu() {
+    $('#submenu:not(ul)').on('click', function(){
+      $('#submenu').hide();
+    })
+  }
+
   var publicAPI = {
     toggleSearch: toggleSearch,
     toggleSubmenu: toggleSubmenu,
     toggleHero: toggleHero,
     toggleMobileNav: toggleMobileNav,
-    toggleMobileSubmenu: toggleMobileSubmenu
+    toggleMobileSubmenu: toggleMobileSubmenu,
+    escapeMobileSubmenu: escapeMobileSubmenu
   }
 
   return publicAPI;
@@ -52,4 +59,5 @@ $(document).ready(function(){
   AuthentifyManager.toggleHero(),
   AuthentifyManager.toggleMobileNav(),
   AuthentifyManager.toggleMobileSubmenu()
+  AuthentifyManager.escapeMobileSubmenu()
 })
