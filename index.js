@@ -20,25 +20,29 @@ var AuthentifyManager = (function(){
     });
   }
   function toggleMobileNav() {
-    $('#nav-icon3').click(function(){
+    $('#nav-icon3').click(function(e){
       $(this).toggleClass('open');
       if ($('.mobile-menu').css('display') == 'none') {
         $('.mobile-menu').show();
       } else {
+        e.stopPropagation();
+        e.preventDefault()
         $('.mobile-menu').hide();
       }
     });
   }
   function toggleMobileSubmenu() {
-    $('.mobile-menu ul li:not(:nth-last-child(-n + 1))').on('click', function(){
-      $('#submenu').toggleClass('show-me');
+    $('.mobile-menu ul li:not(:nth-last-child(-n + 1))').on('click', function(e){
+      e.stopPropagation();
+      e.preventDefault()
+      $('#submenu').show();
     });
   }
 
   function escapeMobileSubmenu() {
     $('#submenu:not(ul)').on('click', function(e){
       e.stopPropagation();
-      e.preventDefault();
+      e.preventDefault()
       $('#submenu').hide();
     })
   }
