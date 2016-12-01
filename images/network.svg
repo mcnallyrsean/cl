@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41.5" viewBox="0 0 25 41.5">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #b3b2b1;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill-opacity: 0;
+        stroke: #b3b2b1;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="network_icon" data-name="network icon" class="cls-1">
+    <path class="cls-2" d="M507,712h3v22h-3V712Zm22,0h3v22h-3V712Zm-22,25v-3h25v3H507Zm0-22v-3h25v3H507Zm11,6h3v7h-3v-7Z" transform="translate(-507 -695.5)"/>
+    <path id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-3" d="M519.5,697a9.472,9.472,0,0,1,9.5,9.445V714H510v-7.555A9.472,9.472,0,0,1,519.5,697Z" transform="translate(-507 -695.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="78.969" height="51" viewBox="0 0 78.969 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #94d500;
+        fill-opacity: 0;
+        stroke: #4a9ac3;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M552.932,2007.01a23.91,23.91,0,0,1,0,33.94,24.221,24.221,0,0,1-34.12,0,23.908,23.908,0,0,1,0-33.94A24.221,24.221,0,0,1,552.932,2007.01Z" transform="translate(-482.531 -1998.47)"/>
+  <path class="cls-1" d="M525.186,2007.01a23.91,23.91,0,0,1,0,33.94,24.221,24.221,0,0,1-34.12,0,23.908,23.908,0,0,1,0-33.94A24.221,24.221,0,0,1,525.186,2007.01Z" transform="translate(-482.531 -1998.47)"/>
+</svg>

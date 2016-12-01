@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.969" height="44.562" viewBox="0 0 27.969 44.562">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #b3b2b1;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill-opacity: 0;
+        stroke: #b3b2b1;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="financial_icon" data-name="financial icon" class="cls-1">
+    <path class="cls-2" d="M744.8,715.023h2.993v14.021H744.8V715.023Zm9.975,0h2.992v14.021h-2.992V715.023Zm9.974,0h2.993v14.021h-2.993V715.023ZM743.8,730.045v-3h4.987v3H743.8Zm9.974,0v-3h4.988v3h-4.988Zm9.975,0v-3h4.987v3h-4.987ZM743.8,716.025v-3h4.987v3H743.8Zm9.974,0v-3h4.988v3h-4.988Zm9.975,0v-3h4.987v3h-4.987ZM743.8,736.054v-3h24.936v3H743.8Zm0,6.009v-3h24.936v3H743.8Z" transform="translate(-742.281 -697.5)"/>
+    <path class="cls-3" d="M743.8,707.012L756.271,699l12.475,8.017H743.8Zm0.007,3v-3h24.936v3H743.8Z" transform="translate(-742.281 -697.5)"/>
+  </g>
+</svg>
