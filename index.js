@@ -36,7 +36,9 @@ var AuthentifyManager = (function(){
   }
 
   function escapeMobileSubmenu() {
-    $('#submenu:not(ul)').on('click', function(){
+    $('#submenu:not(ul)').on('click', function(e){
+      e.stopPropagation();
+      e.preventDefault();
       $('#submenu').hide();
     })
   }
